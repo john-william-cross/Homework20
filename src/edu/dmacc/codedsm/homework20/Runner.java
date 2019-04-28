@@ -14,7 +14,6 @@ public class Runner {
                 .collect(toList());
         System.out.println(lengthOfIndividualStrings);  //outputs [3, 3, 4, 6, 6]
 
-
         List<Character> result = animals.stream()
                 .flatMap(word -> word.chars().mapToObj(i -> (char) i))
                 .collect(toList());
@@ -35,7 +34,6 @@ public class Runner {
                 .collect(toList())
                 .size();
         System.out.println(count);   outputs 22*/
-
 
     }
 }
