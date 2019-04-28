@@ -2,9 +2,7 @@ package edu.dmacc.codedsm.homework20;
 
 import java.util.Arrays;
 import java.util.List;
-
 import static java.util.stream.Collectors.toList;
-
 
 public class Runner {
     public static void main(String[] args) {
